@@ -29,7 +29,7 @@
             gap: 20px;
             align-items: center;
             justify-content: center;
-            height: 30vh;
+            height: 35vh;
         }
         .div-home form input{
             padding: 15px;
@@ -44,7 +44,7 @@
         }
         .div-home ::placeholder{
             color: black;
-            font-size: 15px;
+            font-size: 18px;
         }
 
     </style>
