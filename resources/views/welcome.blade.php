@@ -19,10 +19,13 @@
         }
 
         .div-home{
-            background-color: black;
+            background-color: gray;
             width: 500px;
-            height: 400px;
             border-radius: 10px;
+            padding: 60px;
+        }
+        .div-home img{
+            width: 100px;
         }
         .div-home form{
             display: flex;
@@ -37,6 +40,7 @@
             width: 400px;
             border-radius: 10px;
             border: none;
+            outline: none;
         }
         .submit{
             background-color: black;
@@ -53,12 +57,12 @@
 <body>
     <div class="div-home">
         <form>
+            <img src="https://cdn-icons-png.flaticon.com/256/16/16467.png">
             <input type="text" placeholder="Usuario">
             <input type="password" placeholder="Senha">
             <input class="submit" type="submit" value="Entrar">
         </form>
     </div>
-   <button class="btn btn-primary">Entrar</button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
